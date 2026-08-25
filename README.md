@@ -1,5 +1,6 @@
-Welcome to my Terraform Learning Project on GitHub.
-As usual, anything you use from my repositories is at your discretion and I'm not liable.
+
+Welcome to my Terraform Learning Project on GitHub. 
+As usual, anything you use from my repositories is at your discretion and I'm not liable. 
 All of this is for learning purposes only.
 
 
@@ -20,7 +21,7 @@ All of this is for learning purposes only.
 
 ############### GOOGLE CLOUD Credentials #############
 
-1. Login to https://console.cloud.google.com
+1. Login to https://console.cloud.google.com 
        a) Make note of your "Project ID" at the top of the screen. There should be a "copy icon" next to it. You're gonna wanna save that somewhere in a file for reference later.
        b) There should be a "hamburger icon" on the top-left corner of the page. Click there to Navigate to the "IAM and ADMIN" option. There is a sub-option that says "Service Accounts". Click it.
        c) Click the "Create Service Account" button. Make a service account - I can't explain the details on this just yet.
@@ -52,7 +53,7 @@ terraform init
 ======= Sample Terraform HCL file =============
 # ** This snippet will get your started and should serve as a base template to creating your HCL(*.tf) files for deploying.
 
-terraform {
+terraform { 
   required_providers {
     google = {  # Define Google as our expected API that we're going to be interacting with.
       source  = "hashicorp/google"
@@ -66,7 +67,7 @@ terraform {
 provider "google" { # Determine where to allocate the resources we need.
   project = "<YOUR-GOOGLE-CLOUD-PROJECTID>"
   region  = "us-central1" # Where to build our resources.
-  zone    = "us-central1-a"
+  zone    = "us-central1-a" 
 }
 
 ###################################################
