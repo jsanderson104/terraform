@@ -54,7 +54,7 @@ locals {
     chown -Rf automation /home/automation ; chmod 700 /home/automation/.ssh; chmod 600 /home/automation/.ssh/authorized_leys
     dnf install -y httpd freeipa-client php-common
     systemctl enable --now httpd && firewall-cmd --add-service={http,https,freeipa-ldap,ssh} && firewall-cmd --runtime-to-permanent
-    echo "Justin's Terraform Web Server project" > /var/www/html/index.html && chown apache:apache /var/www/html/index.html && chmod 640 /var/www/html/index.html && restorecon -RFv /var/www/html
+    echo "My Terraform Web Server project" > /var/www/html/index.html && chown apache:apache /var/www/html/index.html && chmod 640 /var/www/html/index.html && restorecon -RFv /var/www/html
   EOF
 }
 
