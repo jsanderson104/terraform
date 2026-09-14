@@ -22,9 +22,9 @@ Extract it to /usr/local
 ```
 sudo tar -C /usr/local -xzvf google-cloud-cli-linux-x86_64.tar.gz
 ```
-Set your PATH (again) variable
+Set your PATH (variable
 ```
-export PATH=$PATH:/usr/local/google-cloud-*/
+export PATH=$PATH:/usr/local/google-cloud-sdk/bin
 ```
 
 
