@@ -26,7 +26,10 @@ Set your PATH (variable
 ```
 export PATH=$PATH:/usr/local/google-cloud-sdk/bin
 ```
-
+Set permissions on Google SDK so all users can use/access it
+```
+chmod -R 755 google-cloud-sdk
+```
 
 <b>GOOGLE CLOUD Credentials</b>
 
