@@ -10,7 +10,7 @@ All of this is for learning purposes only.
 
 Extract it to /usr/local/bin
 ```
-sudo unzip -d /usr/local/bin terraform_1.16.2_darwin_amd64.zip terraform && sudo chmod 755 /usr/local/bin/terraform
+sudo unzip -d /usr/local/bin terraform_1.16.2_linux_amd64.zip terraform && sudo chmod 755 /usr/local/bin/terraform
 ```
 
 <b>Also need to install GOOGLE CLOUD CLI -aka- "gcloud"</b>
