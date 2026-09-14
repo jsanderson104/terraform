@@ -5,7 +5,7 @@ All of this is for learning purposes only.
 
 <b>Download Terraform:</b>
 ```
- wget https://releases.hashicorp.com/terraform/1.16.2/terraform_1.16.2_darwin_amd64.zip
+ wget https://releases.hashicorp.com/terraform/1.16.2/terraform_1.16.2_linux_amd64.zip
 ```
 
 Extract it to /usr/local/bin
