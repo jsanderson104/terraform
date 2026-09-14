@@ -3,17 +3,15 @@
 As usual, anything you use from my repositories is at your discretion and I'm not liable. 
 All of this is for learning purposes only.
 
-
-
-<b>Preparing your Linux box to issue commands to google cloud</b>
-To install Terraform CLI, just extract the zip file to ```/usr/local``` and set the PATH variable.
+<b>Download Terraform:</b>
 ```
-unzip -d /usr/local/terraform terraform_*.zip
-```
-```
-export PATH=$PATH:/usr/local/terraform/bin
+ wget https://releases.hashicorp.com/terraform/1.16.2/terraform_1.16.2_darwin_amd64.zip
 ```
 
+Extract it to /usr/local/bin
+```
+sudo unzip -d /usr/local/bin terraform_1.16.2_darwin_amd64.zip terraform && sudo chmod 755 /usr/local/bin/terraform
+```
 
 <b>Also need to install GOOGLE CLOUD CLI -aka- "gcloud"</b>
 Download it:
